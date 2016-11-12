@@ -154,7 +154,7 @@ L.TileLayer.include({
 		/// FIXME: There is a deprecation warning about parameters in the
 		///   this._db.put() call.
 		// this._db.put(doc, tileUrl, doc.timestamp);
-		this._db.put({data: doc, _id: tileUrl, _ref: doc.timestamp);
+		this._db.put({data: doc, _id: tileUrl, _ref: doc.timestamp});
 
 		if (done) { done(); }
 	},
